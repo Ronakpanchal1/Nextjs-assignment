@@ -1,0 +1,122 @@
+.jobDetails {
+    width: 1000px;
+    margin: 0 auto;
+    color: #2d1130;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 30px;
+    border: 2px solid #4f285a;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.sections {
+    padding: 30px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sections:nth-child(1){
+    padding:10px 30px 0px 30px;
+}
+
+.sections:nth-child(2)::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 119.5%;
+    height: 2px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#4f285a, #b766ce, #ebd28e, #b766ce,#4f285a);
+}
+
+.title {
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.company {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    /* filter: invert(100%); */
+}
+
+.loc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.salary {
+    font-size: 18px;
+    letter-spacing: 1.5 px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skills>h3 {
+    font-weight: 500;
+}
+
+.skills>p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 26px;
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sections:nth-child(3) {
+    align-items: center;
+}
+
+.buttons {
+    border-radius: 10px;
+    color: white;
+    background-color: #53c28b;
+    /* ////////// */
+    background-color: #783d7d;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 30px;
+    width: 350px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    background-color: #6f297a;
+
+}

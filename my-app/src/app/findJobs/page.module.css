@@ -1,0 +1,68 @@
+.FindJobs {
+    display: flex;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.title{
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #2d1130;
+
+}
+
+.company {
+   font-weight: 400;
+}
+
+.jobCard {
+    border-radius: 5px;
+    width: 330px;
+    padding: 23px;
+    border: 1px solid #2d1130;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #2d1130;
+    transition: all .25s;
+
+}
+.jobCard:hover{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.jobCard:hover .title{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 255, 0.575);
+}
+
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.loc {
+    font-size: 17px;
+    font-weight: 400;
+    /* color: black; */
+}
+
+.salary {
+    font-size: 15px;
+    letter-spacing: 1.5 px;
+    /* color: black; */
+}
